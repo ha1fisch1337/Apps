@@ -56,7 +56,3 @@ class rel():
         c.matrix()
     def kernel(self):
         self.obr().compose(self)
-
-a=[(1,2),(2,3),(3,1),(2,2),(3,2)]
-a=rel(a)
-a.compose(a)
